@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f145f14d72d14061982e4b8651720b1b" Name="Diagram1" >
+        <EntityTypeShape EntityType="ContactsModel.Contact" Width="1.5" PointX="3.875" PointY="0.5" />
+        <EntityTypeShape EntityType="ContactsModel.Images" Width="1.5" PointX="0.625" PointY="0.5" />
+        <AssociationConnector Association="ContactsModel.ContactImages" />
+        <EntityTypeShape EntityType="ContactsModel.PhoneNumbers" Width="1.5" PointX="0.625" PointY="2.375" />
+        <AssociationConnector Association="ContactsModel.ContactPhoneNumbers" />
+        <EntityTypeShape EntityType="ContactsModel.Emails" Width="1.5" PointX="0.625" PointY="4.5" />
+        <AssociationConnector Association="ContactsModel.ContactEmails" />
+        <EntityTypeShape EntityType="ContactsModel.Addresses" Width="1.5" PointX="7" PointY="0.5" />
+        <AssociationConnector Association="ContactsModel.ContactAddresses" />
+        <EntityTypeShape EntityType="ContactsModel.IMs" Width="1.5" PointX="2.75" PointY="5.25" />
+        <AssociationConnector Association="ContactsModel.ContactIMs" />
+        <EntityTypeShape EntityType="ContactsModel.SocialNetworks" Width="1.5" PointX="4.75" PointY="5.25" />
+        <AssociationConnector Association="ContactsModel.ContactSocialNetworks" />
+        <EntityTypeShape EntityType="ContactsModel.Comments" Width="1.5" PointX="7" PointY="3.25" />
+        <AssociationConnector Association="ContactsModel.ContactComments" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
