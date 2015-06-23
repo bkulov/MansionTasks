@@ -77,8 +77,12 @@ namespace ContactsSystemAppProto
 			return this.contactsContainer.ContactSet.Find(contactId);
 		}
 
-		public IEnumerable<Contact> FindContacts()
+		public IEnumerable<Contact> FindContacts(ContactSearchCriteria searchCriteria)
 		{
+			// filter the contact by the properties of the searchCriteria, which have value
+			// also allow filtering by partial value
+			// return a list of contacts found or empty enumerable
+
 			return Enumerable.Empty<Contact>();
 		}
 	}

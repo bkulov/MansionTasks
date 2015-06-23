@@ -57,6 +57,7 @@
     <Compile Include="Contact.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="ContactSearchCriteria.cs" />
     <Compile Include="ContactsService.cs" />
     <Compile Include="ContactsModel.Designer.cs">
       <AutoGen>True</AutoGen>
